@@ -18,11 +18,11 @@ const Layout = () => {
         `}
       </style>
 
-      <div className="grid lg:grid-cols-2 grow">
-        <div className="flex justify-center items-center p-8 lg:p-10 order-2 lg:order-1">
+      <div className="w-full h-full">
+        <div className="flex w-full justify-center items-center p-8 lg:p-10 order-2 lg:order-1">
           <Outlet />
         </div>
-
+{/* 
         <div className="lg:rounded-xl lg:border lg:border-gray-200 lg:m-5 order-1 lg:order-2 bg-top xxl:bg-center xl:bg-cover bg-no-repeat branded-bg">
           <div className="flex flex-col p-8 lg:p-16 gap-4">
             <Link to="/">
@@ -40,7 +40,7 @@ const Layout = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Fragment>;
 };
